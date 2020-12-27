@@ -14,7 +14,7 @@ const config = [
   },
   {
     match: 'amazon',
-    domElement: '[data-component-type="s-impression-logger"]',
+    domElement: '[data-component-type="s-impression-logger"], [data-component-type="sp-sponsored-result"]',
     css: {
       transform: "rotateZ(180deg) scale(0.5)",
       transformOrigin: "center center"
